@@ -30,24 +30,60 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:alt" content="Marjan Dimic Logo">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <style>
-        html,
-        body {
-            height: 100%;
-        }
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet"> -->
 
-        body {
-            margin: 0;
-            font-family: Roboto, "Helvetica Neue", sans-serif;
-        }
-    </style>
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body style="margin: 0px;">
-    <img src="images/logo.jpg" alt="Marjan Dimic Logo" class="center"
-        style="margin: 0 auto; display: block; max-width: 280px;">
+<body>
+    <header>
+        <img class="logo" src="images/logo.jpg" alt="Marjan Dimic Logo" style="height: 55px;">
+        <nav class="nav-collapse">
+            <ul>
+                <li class="menu-item"><a href="#illustrations">ILLUSTRATIONS</a></li>
+                <li class="menu-item"><a href="#games">GAMES</a></li>
+                <li class="menu-item"><a href="#design">DESIGN</a></li>
+                <li class="menu-item"><a href="#walls">WALLS</a></li>
+                <li class="menu-item"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="intro">
+        <div>
+            <img class="logo" src="images/logo.jpg" alt="Marjan Dimic Logo" style="display: block; max-width: 355px;">
+            <div style="text-align: center; font-size: 28px; margin-top: -20px;">MARJAN DIMIC</div>
+        </div>
+    </div>
+
+    <div class="content">
+        <section>
+            <h2 id="illustrations">ILLUSTRATIONS</h2>
+            <div style="height: 80vh;"></div>
+        </section>
+        <section>
+            <h2 id="games">GAMES</h2>
+            <div style="height: 80vh;"></div>
+        </section>
+        <section>
+            <h2 id="design">DESIGN</h2>
+            <div style="height: 80vh;"></div>
+        </section>
+        <section>
+            <h2 id="walls">WALLS</h2>
+            <div style="height: 80vh;"></div>
+        </section>
+        <section>
+            <h2 id="contact">CONTACT</h2>
+            <div style="height: 80vh;"></div>
+        </section>
+    </div>
+
+    <script src="libs/responsive-nav.min.js"></script>
+    <script src="libs/gumshoe.polyfills.min.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
 </body>
 
 </html>
