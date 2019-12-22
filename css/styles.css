@@ -236,14 +236,14 @@ header {
 
 .nav-toggle {
   position: relative;
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   float: right;
 }
 
 .nav-toggle:before {
   color: #000; 
-  font: normal 28px/55px "responsivenav";
+  font: normal 28px/50px "responsivenav";
   text-transform: none;
   text-align: center;
   position: absolute;
@@ -263,7 +263,6 @@ header {
 
 .intro {
   box-sizing: border-box;
-  padding-top: 81px;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -272,9 +271,39 @@ header {
 }
 
 /* ------------------------------------------
+  CONTENT
+--------------------------------------------- */
+.content {
+  max-width: 1298px;
+  margin: 0 auto;
+}
+/* ------------------------------------------
   SECTIONS
 --------------------------------------------- */
 
+section {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 section h2 {
-  padding-top: 81px;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+
+.art {
+  max-width: 100%;
+}
+
+.sketchbook {
+  display: grid;
+  
+  /* grid-template-columns: 390px 107px 367px 119px 255px; */
+  /* grid-template-columns: 30.9% 8.5% 29% 9.4% 20.2%; */
+  /* grid-template-columns: 30.9fr 8.5fr 29fr 9.4fr 20.2fr; */
+  grid-template-columns: 31.33fr 8.81fr 29.57fr 9.54fr 20.75fr;
+  grid-template-rows: 16.08fr 15.92fr 11.90fr 10.6fr 1.87fr 13.20fr 9.67fr 9.79fr 10.97fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
 }
