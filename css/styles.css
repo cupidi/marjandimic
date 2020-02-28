@@ -274,7 +274,7 @@ header {
   CONTENT
 --------------------------------------------- */
 .content {
-  max-width: 1298px;
+  max-width: 1230px;
   margin: 0 auto;
 }
 /* ------------------------------------------
@@ -298,12 +298,21 @@ section h2 {
 
 .sketchbook {
   display: grid;
-  
-  /* grid-template-columns: 390px 107px 367px 119px 255px; */
-  /* grid-template-columns: 30.9% 8.5% 29% 9.4% 20.2%; */
-  /* grid-template-columns: 30.9fr 8.5fr 29fr 9.4fr 20.2fr; */
-  grid-template-columns: 31.33fr 8.81fr 29.57fr 9.54fr 20.75fr;
-  grid-template-rows: 16.08fr 15.92fr 11.90fr 10.6fr 1.87fr 13.20fr 9.67fr 9.79fr 10.97fr;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  grid-template-columns: 370fr 91fr 352fr 108fr 239fr;
+  grid-template-rows: 359fr 359fr 277fr 237fr 48fr 307fr 197fr 246fr 254fr;
+  align-content: center;
+  grid-gap: 10px;
 }
+
+@media only screen and (max-width: 900px) {
+  .sketchbook {
+    grid-gap: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sketchbook {
+    grid-gap: 2px;
+  }
+}
+
