@@ -293,6 +293,11 @@ section h2 {
   font-weight: 300;
 }
 
+section h3 {
+  font-size: 0.875em;
+  font-weight: 400;
+}
+
 .art {
   max-width: 100%;
   width: 100%;
