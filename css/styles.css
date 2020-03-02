@@ -277,6 +277,7 @@ header {
   max-width: 1230px;
   margin: 0 auto;
 }
+
 /* ------------------------------------------
   SECTIONS
 --------------------------------------------- */
@@ -294,25 +295,37 @@ section h2 {
 
 .art {
   max-width: 100%;
+  width: 100%;
 }
 
-.sketchbook {
+/* ------------------------------------------
+  GRID
+--------------------------------------------- */
+
+.grid {
   display: grid;
-  grid-template-columns: 370fr 91fr 352fr 108fr 239fr;
-  grid-template-rows: 359fr 359fr 277fr 237fr 48fr 307fr 197fr 246fr 254fr;
   align-content: center;
   grid-gap: 10px;
 }
 
 @media only screen and (max-width: 900px) {
-  .sketchbook {
+  .grid {
     grid-gap: 5px;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .sketchbook {
+  .grid {
     grid-gap: 2px;
   }
 }
 
+.sketchbook {
+  grid-template-columns: 370fr 91fr 352fr 108fr 239fr;
+  grid-template-rows: 359fr 359fr 277fr 237fr 48fr 307fr 197fr 246fr 254fr;
+}
+
+.digital {
+  grid-template-columns: 371fr 214fr 319fr 266fr;
+  grid-template-rows: 382fr 377fr 371fr;
+}
