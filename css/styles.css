@@ -334,3 +334,8 @@ section h3 {
   grid-template-columns: 266fr 319fr 214fr 371fr;
   grid-template-rows: 382fr 377fr 377fr;
 }
+
+.book {
+  grid-template-columns: 394fr 384fr 0fr 394fr;
+  grid-template-rows: 630fr 565fr 556fr 556fr;
+}
