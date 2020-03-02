@@ -326,6 +326,6 @@ section h2 {
 }
 
 .digital {
-  grid-template-columns: 371fr 214fr 319fr 266fr;
-  grid-template-rows: 382fr 377fr 371fr;
+  grid-template-columns: 266fr 319fr 214fr 371fr;
+  grid-template-rows: 382fr 377fr 377fr;
 }
