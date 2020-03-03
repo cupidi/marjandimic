@@ -325,6 +325,10 @@ section h3 {
   }
 }
 
+.sketches {
+  grid-template-columns: repeat(12, 1fr);
+}
+
 .sketchbook {
   grid-template-columns: 370fr 91fr 352fr 108fr 239fr;
   grid-template-rows: 359fr 359fr 277fr 237fr 48fr 307fr 197fr 246fr 254fr;
@@ -335,7 +339,32 @@ section h3 {
   grid-template-rows: 382fr 377fr 377fr;
 }
 
+.stickers {
+  grid-template-columns: repeat(12, 1fr);
+}
+
 .book {
   grid-template-columns: 394fr 384fr 0fr 394fr;
   grid-template-rows: 630fr 565fr 556fr 556fr;
+}
+
+.games {
+  grid-template-columns: repeat(12, 1fr);
+  /* grid-template-rows: 630fr 565fr 556fr 556fr; */
+}
+
+.grid.games {
+  grid-gap: 12px;
+}
+
+@media only screen and (max-width: 900px) {
+  .grid.games {
+    grid-gap: 6px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .grid.games {
+    grid-gap: 3px;
+  }
 }
