@@ -392,3 +392,12 @@ section h3 {
 .wallpapers {
   grid-template-columns: 386fr 338fr 456fr;
 }
+
+/* ------------------------------------------
+  WALLS
+--------------------------------------------- */
+
+.walls {
+  grid-template-columns: 357fr 355fr 111fr 347fr;
+  grid-template-rows: 238fr 64fr 155fr 99fr 276fr 61fr 241fr 467fr 238fr 55fr 154fr 105fr 298fr 50fr 234fr 219fr;
+}
